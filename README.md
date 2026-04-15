@@ -4,9 +4,7 @@ Live Demo:https://thepromzzy.github.io/profile-card/  Repo: https://github.com/t
 
 Features
 
-Home Page: Profile card with avatar upload, bio, social links, hobbies, and live clock.
-Contact Page: Fully validated form with real-time error messages and success feedback.
-About Page: Reflective sections on goals, confidence, and future notes.
+Profile card with avatar upload, bio, social links, hobbies, and live clock.
 Responsive: Mobile, tablet, and desktop friendly.
 Accessible: Keyboard navigation, ARIA labels, high-contrast support.
 Testable: All required data-testid attributes included.
@@ -21,11 +19,8 @@ Google Fonts (Aleo)
 Project Structure
 /
 ├── index.html → Home (Profile Card)
-├── contact.html → Contact Form
-├── about.html → About Me
 ├── style.css → Shared styles
 ├── script.js → Home page logic
-├── contact.js → Form validation
 ├── images/ → Avatar image
 └── README.md
 
