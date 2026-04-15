@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="main-nav" data-testid="test-main-nav">
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link" data-testid="test-nav-home">Home</a></li>
+            <li><a href="about.html" class="nav-link" data-testid="test-nav-about">About Me</a></li>
+            <li><a href="contact.html" class="nav-link active" data-testid="test-nav-contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="contact-card" data-testid="test-contact-page">
+        <h1 class="contact-title">Contact Me</h1>
+        <form id="contact-form" novalidate>
+            <div class="form-group">
+                <label for="full-name" class="form-label">Full Name</label>
+                <input type="text" id="full-name" class="form-input" data-testid="test-contact-name"
+                    aria-describedby="error-name" required>
+                <p class="error-message" id="error-name" data-testid="test-contact-error-name" hidden>Name is required
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" data-testid="test-contact-email"
+                    aria-describedby="error-email" required>
+                <p class="error-message" id="error-email" data-testid="test-contact-error-email" hidden>Please enter a
+                    valid email address</p>
+            </div>
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-input" data-testid="test-contact-subject"
+                    aria-describedby="error-subject" required>
+                <p class="error-message" id="error-subject" data-testid="test-contact-error-subject" hidden>Subject is
+                    required</p>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-input" data-testid="test-contact-message"
+                    aria-describedby="error-message" required></textarea>
+                <p class="error-message" id="error-message" data-testid="test-contact-error-message" hidden>Message must
+                    be at least 10 characters</p>
+            </div>
+            <button type="submit" class="form-submit" data-testid="test-contact-submit">Submit</button>
+            <p class="success-message" id="success-message" data-testid="test-contact-success" hidden>Thank you for your
+                message!</p>
+        </form>
+    </main>
+    <script src="contact.js"></script>
+</body>
+
+</html>
