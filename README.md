@@ -1,6 +1,6 @@
 Frontend Wizards – Stage 1B
 Multi-page profile app with a responsive profile card, contact form, and about page.
-Live Demo:  Repo: 
+Live Demo:https://thepromzzy.github.io/profile-card/  Repo: https://github.com/thepromzzy/profile-card/
 
 Features
 
@@ -35,7 +35,7 @@ Clone the repo:
 git clone 
 
 Navigate to folder:
-cd frontend-wizards-profile-card
+cd profile-card
 
 Open in browser:
 
