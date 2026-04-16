@@ -37,44 +37,7 @@ Open in browser:
 Use VS Code Live Server, or
 Run: npx http-server → visit http://localhost:8080
 
-Form Validation (Contact Page)
-
-Field
-Rule
-
-Name
-Required, min 2 chars, letters + spaces
-
-Email
-Valid format (user@domain.com)
-
-Subject
-Required
-
-Message
-Min 10 characters
-
-Success message appears only after valid submission.
-
-Accessibility
-
-Semantic HTML (<main>, <nav>, <section>)
-Labels linked with for
-aria-describedby for error messages
-Keyboard-navigable (Tab, Enter, Space)
-High-contrast mode support
-
-Submission Checklist
-
-All data-testid attributes added
-
-Form validation works
-
-Success message shows only on valid submit
-
 Responsive on all devices
-
-Accessible & keyboard friendly
 
 Clean, modular code
 
